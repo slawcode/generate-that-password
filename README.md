@@ -25,4 +25,6 @@ A Password Generator Website
 
 ## Credits
 
+Nyakundi, Hillary. (2021, December 8). How to Write a Good Readme File for Your GitHub Project. FreeCodeCamp. https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
 University of Toronto. (2023). Coding Boot Camp [Source Code].
