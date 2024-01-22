@@ -3,8 +3,8 @@ A Password Generator Website
 
 ## Description 
 
-- The motivation for this project was simply security. 
-- Through the implementation of Javascript and a few prompts, a user can create a secure password, that will provide greater security for their sensitive data. 
+- The motivation for this project was security. 
+- Through the implementation of Javascript and a few prompts, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
 - Some challenges occurred in the process of refactoring...
 - I learned... 
 
