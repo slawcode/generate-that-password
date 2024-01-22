@@ -11,12 +11,12 @@ function generatePassword() {
 //  Numbers (0123456789) = Include or not
 
 var passwordLength = 8 <= 128;
-var Lowercase = 
-var Uppercase = 
-var Numbers = 
+var Lowercase = abcdefghijklmnopqrstuvwxyz
+var Uppercase = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+var Numbers = 0123456789
 
 var password = 
-  length: 
+  length: 8 <= 128,
   includesLoweCase: true or false, yes or no,
   lowerCase: "abcdefghijklmnopqrstuvwxyz",
   includesUpperCase: true or false,
@@ -25,8 +25,17 @@ var password =
   numbers: "0123456789",
 
   if(passwordLength <= 7){
-    return ("password length must be at least 1");
+    return ("Password length must be at least 8 characters");
   }
+
+  if(passwordLength >= 129){
+    return ("Password length must be no more than 128 characters");
+  }
+
+// Evaluates to false so nothing is logged
+// if (hungerLevel < 50) {
+    // console.log("I'm full!");
+//   }
 
 // var isEqualTakeTwo = function (x, y) 
 //   if (x === y) {
