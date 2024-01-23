@@ -18,7 +18,7 @@ A Password Generator Website
 
 ![Screenshot of Password Generator website open in browser](./assets/images/01-screenshot.png)
 
-[x][y]
+[x] https://slawcode.github.io/generate-that-password/ [y]
 
 ## Credits
 
