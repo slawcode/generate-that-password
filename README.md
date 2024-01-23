@@ -5,8 +5,7 @@ A Password Generator Website
 
 - The motivation for this project was security. 
 - Through the implementation of Javascript and a few prompts, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
-- Some challenges occurred in the process of refactoring...
-- I learned... 
+- Challenges occurred in the process of refactoring code especially to include all the criteria. 
 
 
 ## Usage
@@ -24,6 +23,10 @@ A Password Generator Website
 [x][y]
 
 ## Credits
+
+Group name. (Year, Month Date). Title of page. Site name. URL
+
+MDN Web Docs. 
 
 Nyakundi, Hillary. (2021, December 8). How to Write a Good Readme File for Your GitHub Project. FreeCodeCamp. https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
