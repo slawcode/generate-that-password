@@ -11,15 +11,14 @@ var generateBtn = document.querySelector("#generate");
 
 //  generatePassword function created 
 function generatePassword(length) {
-//    console.log("Does this work?");
 
    var password = "";
    var passwordLength = 8 <= 128;
    var possibleCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 // A for-loop to execute code more than once
-   for (var i = 8; i <= 128; i++) { 
-    var index = Math.floor(Math.random() * length.characters);
+for (var i = 8; i <= 128; i++) { 
+    var randonIndex = Math.floor(Math.random() * length.characters);
     }
 }
 
@@ -77,7 +76,10 @@ function generatePassword(length) {
     // console.log('They are not equal');
 //   }
 
+
+
 // Write password to the #password input
+
 // Calling the function generatePassword and storing value for that function into the password variable 
 function writePassword() {
   var password = generatePassword();
