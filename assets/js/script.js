@@ -9,40 +9,24 @@
 
 var generateBtn = document.querySelector("#generate");
 
-//  generatePassword function created to generate a password
-function generatePassword(length) {
+// Write password to the #password input
 
-//    var password = "";
-//    var passwordLength = 8 <= 128;
-//    var possibleCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-
-// var passwordLength = ;
-// var Lowercase = abcdefghijklmnopqrstuvwxyz
-// var Uppercase = ABCDEFGHIJKLMNOPQRSTUVWXYZ
-// var Numbers = 0123456789
-
-// Password variable criteria
-var password = 
-    length: 8 <= 128,
-    includesLoweCase: true or false,
-    lowerCase: "abcdefghijklmnopqrstuvwxyz",
-    includesUpperCase: true or false,
-    upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    includesNumbers: true or false,
-    numbers: "0123456789",
-
-  if(passwordLength <= 7){
-     return ("Password length must be at least 8 characters");
+//  Event listener calls a function called write Password, which runs function generatePassword, therefore generatePassword function created to generate a password
+function generatePassword() {
+  // Length variable created to get password length from user
+  var length = prompt("Please enter a password length between 8 and 128.");
+  console.log(length);
+  // Condition to check length of the password
+  if (length < 8 || length > 128){
+    alert("Password length does not meet length requirements.");
+    return generatePassword()
   }
+}
 
-  if(passwordLength >= 129){
-    return ("Password length must be no more than 128 characters"); 
-   }
-
-   // A for-loop to execute code more than once
-for (var i = 8; i <= 128; i++) { 
-    var randonIndex = Math.floor(Math.random() * length.characters);
-    }
+// A for-loop to execute code more than once
+// for (var i = 8; i <= 128; i++) { 
+    // var randonIndex = Math.floor(Math.random() * length.characters);
+    // }
 
 // Write password to the #password input
 
@@ -52,6 +36,8 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
