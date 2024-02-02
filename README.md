@@ -22,7 +22,7 @@ A Password Generator Website
 
 ## Credits
 
-Foolish Developer. (2022, June 2). Random Password Generator using Javascript. Dev. https://dev.to/code_mystery/random-password-generator-using-javascript-6a
+Foolish Developer. (2022, June 2). Random Password Generator Using Javascript. Dev. https://dev.to/code_mystery/random-password-generator-using-javascript-6a
 
 MDN Web Docs. (n.d.). Math.random().https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 

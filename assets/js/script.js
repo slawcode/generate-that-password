@@ -1,13 +1,9 @@
-// Assignment Code
-
 var generateBtn = document.querySelector("#generate");
 // Variables with strings of possible password letters, special characters and numbers
 var lowerCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var upperCase = "abcdefghijklmnopqrstuvwxyz";
 var specialCharacters = "!@#$%^&*()[]{}";
 var numbers = "0123456789";
-
-// Write password to the #password input
 
 //  Event listener calls a function called writePassword, which runs function generatePassword, therefore generatePassword function created
 function generatePassword() {
@@ -38,16 +34,13 @@ function generatePassword() {
   if (wantsNumbers === true) {
     choices = choices + numbers
   }
+  // For-loop/iteration to execute code multiple times and randomly goes through and grabs characters from the choices string and stores in password variable. Math random generates a random number under 1. This numbers gets multiplied by choices length.  
   var password = ""
-  for (var i = 0; i < length; i++)
+  for (var i = 0; i < length; i++)  {
+  password = password + choices [Math.floor(Math.random()*choices.length)]
+  }
+  return password
 }
-
-// A for-loop to execute code more than once
-// for (var i = 8; i <= 128; i++) { 
-    // var randonIndex = Math.floor(Math.random() * length.characters);
-    // }
-
-// Write password to the #password input
 
 // Calling the function generatePassword and storing value for that function into the password variable for the password display
 function writePassword() {
