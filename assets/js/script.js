@@ -1,17 +1,15 @@
 // Assignment Code
 
-// Password Criteria
-// Length (min. 8 - max. 128)
-// Lowercase (abcdefghijklmnopqrstuvwxyz) = Include or not
-// Uppercase (ABCDEFGHIJKLMNOPQRSTUVWXYZ) = Include or not 
-// Numbers (0123456789) = Include or not
-// Symbols (!@#$%^&*()_+) = Include or not
-
 var generateBtn = document.querySelector("#generate");
+// Variables with strings of possible password letters, special characters and numbers
+var lowerCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var upperCase = "abcdefghijklmnopqrstuvwxyz";
+var specialCharacters = "!@#$%^&*()[]{}";
+var numbers = "0123456789";
 
 // Write password to the #password input
 
-//  Event listener calls a function called write Password, which runs function generatePassword, therefore generatePassword function created to generate a password
+//  Event listener calls a function called writePassword, which runs function generatePassword, therefore generatePassword function created
 function generatePassword() {
   // Length variable created to get password length from user
   var length = prompt("Please enter a password length between 8 and 128.");
