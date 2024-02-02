@@ -19,16 +19,27 @@ function generatePassword() {
     alert("Password length does not meet length requirements.");
     return generatePassword()
   }
-  // Variables created to store user's password preferences
+  // Variables created to store user's password preferences after confirming through question
   var wantsLowerCase = confirm("Do you want lowercase characters in your password?")
   var wantsUpperCase = confirm("Do you want uppercase characters in your password?")
   var wantsSpecialCharacters = confirm("Do you want special characters in your password?")
   var wantsNumbers = confirm("Do you want numbers in your password?")
+  // Responses from the above questions will go into the choices variable. Variables starts off empty. 
   var choices = ""
   if (wantsLowerCase === true) {
-    choices = choices + uppercase
+    choices = choices + lowerCase
   }
-  if (wants 
+  if (wantsUpperCase === true) {
+    choices = choices + upperCase
+  }
+  if (wantsSpecialCharacters === true) {
+    choices = choices + specialCharacters
+  }
+  if (wantsNumbers === true) {
+    choices = choices + numbers
+  }
+  var password = ""
+  for (var i = 0; i < length; i++)
 }
 
 // A for-loop to execute code more than once
