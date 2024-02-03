@@ -14,19 +14,23 @@ A Password Generator Website
 
 - No authentications are needed to access the website.
 
-- Once on the website, to generate a password, the user clicks on the red 'Generate Password' button. The user will then be asked to enter a password length between 8 and 128. If the answer provided does not meet the length requirements then the user will receive a message stating so and will be returned to the password length prompt. Next, the user will be asked to confirm four criteria for their password, if they would like lowercase, uppercase, symbols and/or numbers. Once the user has gone through these confirmations a password will be generated with the users specifications. There is also no limit to the number of passwords that can be generated.
+- Once on the website, to generate a password, the user clicks on the red 'Generate Password' button. The user will then be asked to enter a password length between 8 and 128. If the answer provided does not meet the length requirements then the user will receive a message stating so and will be returned to the password length prompt. Next, the user will be asked to confirm four criteria for their password, if they would like lowercase, uppercase, symbols and/or numbers. Once the user has gone through these confirmations a password will be generated with the users specifications. There is no limit to the number of passwords that can be generated.
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser](./assets/images/01-screenshot.png)
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser with password length prompt](./assets/images/02-screenshot.png)
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser with prompt that password did not meet length requirements](./assets/images/03-screenshot.png)
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser with lowercase confirmation](./assets/images/04-screenshot.png)
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser with uppercase confirmation](./assets/images/05-screenshot.png)
 
-![Screenshot of Password Generator website open in browser]()
+![Screenshot of Password Generator website open in browser with special characters confirmation](./assets/images/06-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with numbers confirmation](./assets/images/07-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with a password generated and console log open](./assets/images/08-screenshot.png)
 
 [x][y]
 
