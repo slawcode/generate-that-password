@@ -4,9 +4,11 @@ A Password Generator Website
 ## Description 
 
 - The motivation for this project was security. 
-- Through the implementation of Javascript and a few confirmations, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
-- Challenges occurred in the process of refactoring code, especially to include all the criteria, and having it generate a password. 
-- Utilizing JavaScript concepts and writing the code itself was initially difficult. The syntax also created challenges since it often caused, what was the correct, not to execute. However, through trial and error, and some pseudo-coding, eventually the project came together successfully.  
+- Through the implementation of Javascript and a few confirmations, a user can create a strong and secure password, that will provide greater security for sensitive data. 
+- Challenges occurred in the process of refactoring code, especially to include all the criteria, and then having the website generate a password. 
+- Utilizing JavaScript concepts and writing the code itself was initially difficult. The syntax also created challenges since it often caused, what was the correct, code not to execute. 
+- Through the making of this website I learned a lot about JavaScript and especially, and more specifically, functions. I learned how to use functions to provide interactivity to the user while providing prompts and confirmations on the page. 
+- The making of this project also helped me better understand JavaScript syntax. Subsequently, the trial and errors of this project may have also helped with my JavaScript practice. 
 
 ## Usage
 
@@ -32,7 +34,7 @@ A Password Generator Website
 
 ![Screenshot of Password Generator website open in browser with a password generated and console log open](./assets/images/08-screenshot.png)
 
-[x][y]
+[x] https://slawcode.github.io/generate-that-password/ [y]
 
 ## Credits
 
