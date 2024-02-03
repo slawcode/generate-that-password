@@ -4,9 +4,9 @@ A Password Generator Website
 ## Description 
 
 - The motivation for this project was security. 
-- Through the implementation of Javascript and a few prompts, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
+- Through the implementation of Javascript and a few confirmations, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
 - Challenges occurred in the process of refactoring code, especially to include all the criteria, and having it generate a password. 
-- Utilizing the correct JavaScript rules was also a challenge in the refactoring of code. 
+- Utilizing JavaScript concepts and writing the code itself was initially difficult. The syntax also created challenges since it often caused, what was the correct, not to execute. However, through trial and error, and some pseudo-coding, eventually the project came together successfully.  
 
 ## Usage
 
@@ -14,11 +14,21 @@ A Password Generator Website
 
 - No authentications are needed to access the website.
 
-- To use the website to generate a password, once loaded in the browser, the user simply clicks on the red 'Generate Password' button.
+- Once on the website, to generate a password, the user clicks on the red 'Generate Password' button. The user will then be asked to enter a password length between 8 and 128. If the answer provided does not meet the length requirements then the user will receive a message stating so and will be returned to the password length prompt. Next, the user will be asked to confirm four criteria for their password, if they would like lowercase, uppercase, symbols and/or numbers. Once the user has gone through these confirmations a password will be generated with the users specifications. There is also no limit to the number of passwords that can be generated.
 
-![Screenshot of Password Generator website open in browser](./assets/images/01-screenshot.png)
+![Screenshot of Password Generator website open in browser]()
 
-[x] https://slawcode.github.io/generate-that-password/ [y]
+![Screenshot of Password Generator website open in browser]()
+
+![Screenshot of Password Generator website open in browser]()
+
+![Screenshot of Password Generator website open in browser]()
+
+![Screenshot of Password Generator website open in browser]()
+
+![Screenshot of Password Generator website open in browser]()
+
+[x][y]
 
 ## Credits
 
