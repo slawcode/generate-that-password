@@ -12,16 +12,19 @@ body,
   padding: 0;
 }
 
+/* Body element font and background colour */
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
-.wrapper {
+/* Password Generator title/header styling */
+.wrapper { 
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 
 header {
   text-align: center;
@@ -54,6 +57,7 @@ header {
   min-height: 100px;
 }
 
+/* Red 'Generate Password' button styling */
 .card-footer {
   text-align: center;
 }
@@ -97,6 +101,7 @@ button[enabled] {
   float: right;
 }
 
+/* Text area ('Your Secure Password') styling */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +123,7 @@ button[enabled] {
   overflow: hidden;
 }
 
+/* Applies when browser window is 690px or smaller */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -130,6 +136,7 @@ button[enabled] {
   }
 }
 
+/* Applies when browser window is 500px or smaller*/
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;

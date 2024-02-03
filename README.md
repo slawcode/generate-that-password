@@ -4,9 +4,9 @@ A Password Generator Website
 ## Description 
 
 - The motivation for this project was security. 
-- Through the implementation of Javascript and a few prompts, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
+- Through the implementation of Javascript and a few confirmations, a user can create a strong and secure password, that will provide greater security for their sensitive data. 
 - Challenges occurred in the process of refactoring code, especially to include all the criteria, and having it generate a password. 
-- Utilizing the correct JavaScript rules was also a challenge in the refactoring of code. 
+- Utilizing JavaScript concepts and writing the code itself was initially difficult. The syntax also created challenges since it often caused, what was the correct, not to execute. However, through trial and error, and some pseudo-coding, eventually the project came together successfully.  
 
 ## Usage
 
@@ -14,15 +14,29 @@ A Password Generator Website
 
 - No authentications are needed to access the website.
 
-- To use the website to generate a password, once loaded in the browser, the user simply clicks on the red 'Generate Password' button.
+- Once on the website, to generate a password, the user clicks on the red 'Generate Password' button. The user will then be asked to enter a password length between 8 and 128. If the answer provided does not meet the length requirements then the user will receive a message stating so and will be returned to the password length prompt. Next, the user will be asked to confirm four criteria for their password, if they would like lowercase, uppercase, symbols and/or numbers. Once the user has gone through these confirmations a password will be generated with the users specifications. There is no limit to the number of passwords that can be generated.
 
 ![Screenshot of Password Generator website open in browser](./assets/images/01-screenshot.png)
 
-[x] https://slawcode.github.io/generate-that-password/ [y]
+![Screenshot of Password Generator website open in browser with password length prompt](./assets/images/02-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with prompt that password did not meet length requirements](./assets/images/03-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with lowercase confirmation](./assets/images/04-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with uppercase confirmation](./assets/images/05-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with special characters confirmation](./assets/images/06-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with numbers confirmation](./assets/images/07-screenshot.png)
+
+![Screenshot of Password Generator website open in browser with a password generated and console log open](./assets/images/08-screenshot.png)
+
+[x][y]
 
 ## Credits
 
-Foolish Developer. (2022, June 2). Random Password Generator using Javascript. Dev. https://dev.to/code_mystery/random-password-generator-using-javascript-6a
+Foolish Developer. (2022, June 2). Random Password Generator Using Javascript. Dev. https://dev.to/code_mystery/random-password-generator-using-javascript-6a
 
 MDN Web Docs. (n.d.). Math.random().https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
